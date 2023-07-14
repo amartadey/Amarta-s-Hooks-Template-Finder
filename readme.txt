@@ -4,8 +4,8 @@ Tags: wordpress hooks, filter, action, wp hooks
 Requires at least: 4.0
 Tested up to: 6.1.1
 Stable tag: 1.2.3
-License: GPLv2
-License URI: GPLv2
+License: GPLv3
+License URI: GPLv3
 
 == Description ==
 Everything on WordPress depends on the action and filter hooks. And they are the backbone of WordPress. You can enhance or customize any WordPress functionality by using these hooks. If you look at any WordPress page or post, they appear through the combination of action & filter hooks.
