@@ -1,37 +1,38 @@
 li#wp-admin-bar-wp-hooks-finder a {
-    background-color: #6b037d !important;
-    color: #FFF !important;
+  background-color: #6b037d !important;
+  color: #fff !important;
 }
 
 li#wp-admin-bar-wp-hooks-finder div.ab-sub-wrapper ul#wp-admin-bar-wp-hooks-finder-default a {
-    background-color: inherit !important;
-    color: #FFF !important;
+  background-color: inherit !important;
+  color: #fff !important;
 }
 
 li#wp-admin-bar-wp-hooks-finder div.ab-sub-wrapper ul#wp-admin-bar-wp-hooks-finder-default a:hover {
-    background-color: inherit !important;
-    color: #72aee6 !important;
+  background-color: inherit !important;
+  color: #72aee6 !important;
 }
 
-#wphftf-action {
-    border: solid 1px;
-    background-color: #9d3a3a;
-    margin: 5px;
-    color: white;
-    font-size: 12px;
-    padding: 5px;
+#thfamrf-action {
+  border: solid 1px;
+  background-color: #9d3a3a;
+  margin: 5px;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
 }
 
-#wphftf-filter {
-    border: solid 1px;
-    background-color: #3e5a68;
-    margin: 5px;
-    color: white;
-    padding: 5px;
-    font-size: 12px;
+#thfamrf-filter {
+  border: solid 1px;
+  background-color: #3e5a68;
+  margin: 5px;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
 }
 
-div#wphftf-action a, div#wphftf-filter a {
-    color: white;
-    text-decoration: none;
+div#thfamrf-action a,
+div#thfamrf-filter a {
+  color: white;
+  text-decoration: none;
 }
