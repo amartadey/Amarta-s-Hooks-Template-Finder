@@ -170,19 +170,19 @@ function thfamrf_display_all_hooks( $tag ) {
 <!-- Template Name in Admin Bar  -->
 <?php 
 
-function adminBarText($admin_bar){
+function thfamrf_adminBarText($admin_bar){
   if(!is_admin()){
     $admin_bar->add_menu( array(
         'id'    => 'custom-id',
-        'title' => "Template Name: <b style='color:#50FA64'>".customTemplateName()."</b>",
-        'href'  => admin_url().'theme-editor.php?file='.customTemplateName(),
+        'title' => "Template Name: <b style='color:#50FA64'>".thfamrf_customTemplateName()."</b>",
+        'href'  => admin_url().'theme-editor.php?file='.thfamrf_customTemplateName(),
     ));
   }
   
 }
-add_action('admin_bar_menu','adminBarText',99);
+add_action('admin_bar_menu','thfamrf_adminBarText',99);
 
-function customTemplateName(){
+function thfamrf_customTemplateName(){
   global $template;
   return basename($template);
 }
