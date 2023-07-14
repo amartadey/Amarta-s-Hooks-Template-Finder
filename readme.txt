@@ -6,6 +6,3 @@ Tested up to: 6.2.3
 Stable tag: 1
 License: GPLv3
 License URI: GPLv3
-
-
-
