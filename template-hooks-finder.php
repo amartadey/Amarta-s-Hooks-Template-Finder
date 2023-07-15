@@ -11,24 +11,11 @@
 
 define( 'thfamrf_PLUGIN_PATH', plugin_dir_url( __FILE__ ) );
 
-/**
- * Adding style
- * 
- * @since 1.0
- * @version 1.0
- */
 function thfamrf_style() {
     wp_enqueue_style( 'thfamrf-style', thfamrf_PLUGIN_PATH . 'assets/css/style.css' );    
 }
 add_action( 'wp_enqueue_scripts', 'thfamrf_style' );
 add_action( 'admin_enqueue_scripts', 'thfamrf_style' );
-
-/**
- * Adding menu in the Admin Bar Menu
- * 
- * @since 1.0
- * @version 1.2
- */
 add_action('admin_bar_menu', 'thfamrf_add_toolbar_items', 99 );
 
 function thfamrf_add_toolbar_items( $admin_bar ){
