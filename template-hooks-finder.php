@@ -165,10 +165,10 @@ function thfamrf_display_all_hooks( $tag ) {
 }
 
 
-?>
 
-<!-- Template Name in Admin Bar  -->
-<?php 
+
+//  Template Name in Admin Bar 
+
 
 function thfamrf_adminBarText($admin_bar){
   if(!is_admin()){
